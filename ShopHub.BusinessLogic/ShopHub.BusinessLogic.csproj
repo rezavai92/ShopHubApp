@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\shophub-shared\ShopHub.Shared.Common\ShopHub.Shared.Common.csproj" />
     <ProjectReference Include="..\ShopHub.PrimaryPorts\ShopHub.PrimaryPorts.csproj" />
     <ProjectReference Include="..\ShopHub.SecondaryPorts\ShopHub.SecondaryPorts.csproj" />
   </ItemGroup>
