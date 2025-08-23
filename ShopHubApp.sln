@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D7435A09-A09A-430F-8DCA-0B8CCF029D3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{C375AC20-E98D-4568-8ADC-02AFF754F0F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shophub.Server", "Shophub.Server\Shophub.Server.csproj", "{83661677-BE52-4214-88E5-400949894591}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.PrimaryPorts", "ShopHub.PrimaryPorts\ShopHub.PrimaryPorts.csproj", "{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.SecondaryPorts", "ShopHub.SecondaryPorts\ShopHub.SecondaryPorts.csproj", "{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.PrimaryAdapters", "ShopHub.PrimaryAdapters\ShopHub.PrimaryAdapters.csproj", "{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.SecondaryAdapters", "ShopHub.SecondaryAdapters\ShopHub.SecondaryAdapters.csproj", "{9FA84FCF-FAB3-48EC-8652-D8A538031323}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.BusinessLogic", "ShopHub.BusinessLogic\ShopHub.BusinessLogic.csproj", "{0948D80D-0C1E-4C40-BF6B-D7296EB84121}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83661677-BE52-4214-88E5-400949894591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83661677-BE52-4214-88E5-400949894591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83661677-BE52-4214-88E5-400949894591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83661677-BE52-4214-88E5-400949894591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FA84FCF-FAB3-48EC-8652-D8A538031323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FA84FCF-FAB3-48EC-8652-D8A538031323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FA84FCF-FAB3-48EC-8652-D8A538031323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FA84FCF-FAB3-48EC-8652-D8A538031323}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0948D80D-0C1E-4C40-BF6B-D7296EB84121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0948D80D-0C1E-4C40-BF6B-D7296EB84121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0948D80D-0C1E-4C40-BF6B-D7296EB84121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0948D80D-0C1E-4C40-BF6B-D7296EB84121}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DC3E135-6CDC-4CA7-9C68-917B8EC8592D} = {D7435A09-A09A-430F-8DCA-0B8CCF029D3F}
+		{A1D75776-0E7B-4CFD-B5DE-32B1DBFA045F} = {D7435A09-A09A-430F-8DCA-0B8CCF029D3F}
+		{AB7AAEF5-6749-4BB8-A4B1-A2F80B61F386} = {D7435A09-A09A-430F-8DCA-0B8CCF029D3F}
+		{9FA84FCF-FAB3-48EC-8652-D8A538031323} = {D7435A09-A09A-430F-8DCA-0B8CCF029D3F}
+		{0948D80D-0C1E-4C40-BF6B-D7296EB84121} = {D7435A09-A09A-430F-8DCA-0B8CCF029D3F}
+	EndGlobalSection
+EndGlobal
