@@ -12,4 +12,12 @@
     <ProjectReference Include="..\ShopHub.SecondaryPorts\ShopHub.SecondaryPorts.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Category\Converter\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.4.0" />
+  </ItemGroup>
+
 </Project>

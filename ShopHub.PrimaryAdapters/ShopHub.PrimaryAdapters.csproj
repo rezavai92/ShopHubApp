@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="8.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\shophub-shared\ShopHub.Shared.Common\ShopHub.Shared.Common.csproj" />
+    <ProjectReference Include="..\ShopHub.PrimaryPorts\ShopHub.PrimaryPorts.csproj" />
+  </ItemGroup>
+
 </Project>
