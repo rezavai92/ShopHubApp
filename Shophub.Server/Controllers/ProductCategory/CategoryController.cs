@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ShopHub.PrimaryPorts.Category;
-using ShopHub.PrimaryPorts.Category.Models;
+using ShopHub.PrimaryPorts.ProductCategory;
+using ShopHub.PrimaryPorts.ProductCategory.Models;
 
-namespace Shophub.Server.Controllers.Category
+namespace Shophub.Server.Controllers.ProductCategory
 {
     [Route("api/[controller]")]
     [ApiController]

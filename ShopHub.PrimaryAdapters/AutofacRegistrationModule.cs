@@ -1,6 +1,6 @@
 ﻿using Autofac;
-using ShopHub.PrimaryAdapters.Category;
-using ShopHub.PrimaryPorts.Category;
+using ShopHub.PrimaryAdapters.ProductCategory;
+using ShopHub.PrimaryPorts.ProductCategory;
 
 namespace ShopHub.PrimaryAdapters
 {
@@ -8,9 +8,9 @@ namespace ShopHub.PrimaryAdapters
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.Register(c => new CategoryAdapter(c.Resolve<ICategoryProvider>()))
-                .AsImplementedInterfaces()
-                .InstancePerLifetimeScope();
+            builder.RegisterType<CategoryAdapter>()
+           .As<ICategoryAdapter>()
+           .InstancePerLifetimeScope();
         }
     }
 

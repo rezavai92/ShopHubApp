@@ -1,6 +1,6 @@
 ﻿using ShopHub.Shared.Common.Models;
 
-namespace ShopHub.SecondaryAdapters.Category.Models
+namespace ShopHub.SecondaryPorts.ProductCategory.Models
 {
     public class Category : EntityBase
     {

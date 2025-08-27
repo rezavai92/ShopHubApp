@@ -1,0 +1,39 @@
+version: '3.9'
+services:
+  db:
+    image: postgres:16
+    container_name: shophub-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_DB: ShopHubDb
+    ports:
+      - "5432:5432"
+    networks:
+      - shophub-network
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  
+  api:
+    build:
+        context: ./ShopHub.Server
+        dockerfile: Dockerfile
+    container_name: shophub-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__PostgresConnection: "Host=db;Port=5432;Username=postgres;Password=mysecretpassword;Database=ShopHubDb"
+      ASPNETCORE_URLS: "http://+:8080;https://+:8081"
+    ports:
+      - "5000:8080"
+      - "5001:8081"
+    depends_on:
+      - db
+    networks:
+      - shophub-network
+
+networks:
+  shophub-network:
+  
+volumes:
+  pgdata:

@@ -41,7 +41,7 @@
 
             _ = Assembly.LoadFile(Path.Combine(root, "Autofac.dll"));
 
-            var paths = Directory.GetFiles(root, "ShopHubApp.*.dll", SearchOption.TopDirectoryOnly);
+            var paths = Directory.GetFiles(root, "ShopHub.*.dll", SearchOption.TopDirectoryOnly);
             foreach (string path in paths)
             {
                 if (!path.Contains("Tests."))

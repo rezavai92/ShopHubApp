@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ShopHub.PrimaryPorts.Category.Models
+namespace ShopHub.PrimaryPorts.ProductCategory.Models
 {
     public class CreateCategoryDto
     {

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{D7435A09-A09A-430F-8DCA-0B8CCF029D3F}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.BusinessLogic", "ShopHub.BusinessLogic\ShopHub.BusinessLogic.csproj", "{0948D80D-0C1E-4C40-BF6B-D7296EB84121}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopHub.Shared.Common", "..\shophub-shared\ShopHub.Shared.Common\ShopHub.Shared.Common.csproj", "{92E37EE6-C975-4D39-8F1E-6CC1546EC73E}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4433B88E-66B0-4092-A992-E52572B551B0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{92E37EE6-C975-4D39-8F1E-6CC1546EC73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92E37EE6-C975-4D39-8F1E-6CC1546EC73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92E37EE6-C975-4D39-8F1E-6CC1546EC73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4433B88E-66B0-4092-A992-E52572B551B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4433B88E-66B0-4092-A992-E52572B551B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4433B88E-66B0-4092-A992-E52572B551B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4433B88E-66B0-4092-A992-E52572B551B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

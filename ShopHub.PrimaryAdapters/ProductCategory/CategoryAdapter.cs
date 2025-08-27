@@ -1,11 +1,12 @@
-﻿using ShopHub.PrimaryPorts.Category;
-using ShopHub.PrimaryPorts.Category.Models;
+﻿
+using ShopHub.PrimaryPorts.ProductCategory;
+using ShopHub.PrimaryPorts.ProductCategory.Models;
 
-namespace ShopHub.PrimaryAdapters.Category
+namespace ShopHub.PrimaryAdapters.ProductCategory
 {
     public class CategoryAdapter : ICategoryAdapter
     {
-        private ICategoryProvider _categoryProvider;
+        private readonly ICategoryProvider _categoryProvider;
 
         public CategoryAdapter(ICategoryProvider categoryProvider)
         {

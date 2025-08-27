@@ -1,6 +1,6 @@
-﻿using ShopHub.PrimaryPorts.Category.Models;
+﻿using ShopHub.PrimaryPorts.ProductCategory.Models;
 
-namespace ShopHub.PrimaryPorts.Category
+namespace ShopHub.PrimaryPorts.ProductCategory
 {
     public interface ICategoryAdapter
     {
