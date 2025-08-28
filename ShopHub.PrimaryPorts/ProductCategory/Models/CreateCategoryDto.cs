@@ -5,8 +5,8 @@ namespace ShopHub.PrimaryPorts.ProductCategory.Models
     public class CreateCategoryDto
     {
         [Required]
-        public required string name { get; set; }
+        public required string Name { get; set; }
 
-        public string? description { get; set; }
+        public string? Description { get; set; }
     }
 }

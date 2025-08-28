@@ -9,8 +9,8 @@ namespace ShopHub.BusinessLogic.ProductCategory.Converter
         {
             return new Category 
             { 
-                Name = categoryDto.name, 
-                Description = categoryDto.description
+                Name = categoryDto.Name, 
+                Description = categoryDto.Description
             };
         }
     }
