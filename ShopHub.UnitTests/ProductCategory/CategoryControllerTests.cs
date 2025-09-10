@@ -71,6 +71,7 @@ namespace ShopHub.UnitTests.ProductCategory
             var response = await controller.GetAllCategories();
             response.Value.Should().NotBeNull();
             response.Value.Categories.Count().Should().BeGreaterThan(0);
+            response.Value.Categories.Should().Contain(x => x.Name.Equals(TestData.Constants.Categories[0].Name));
         }
 
         [Fact]

@@ -33,7 +33,7 @@ namespace ShopHub.SecondaryAdapters.ProductCategory
             }
         }
 
-        public async Task<Category> Get(string categoryId)
+        public async Task<Category?> Get(string categoryId)
         {
             return await _dbContext.Categories.FindAsync(new Guid(categoryId));
         }
