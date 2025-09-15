@@ -32,6 +32,18 @@ services:
     networks:
       - shophub-network
 
+  client:
+    build:
+      context: ./client/ShopHubClient
+      dockerfile: Dockerfile.dev
+    container_name: shophub-client
+    depends_on:
+      - api
+    ports: 
+      - 4200:4200
+    networks:
+      - shophub-network
+
 networks:
   shophub-network:
   
