@@ -1,3 +1,31 @@
-<div>
-  Hello world
+<div class="main-container">
+  <mat-toolbar class="toolbar" color="primary">
+      <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+
+      <span>My Application</span>
+    </mat-toolbar>
+<mat-sidenav-container  class="app-container">
+  <mat-sidenav   #sidenav mode="side" opened>
+    <mat-nav-list>
+      @for (navigation of navigations; track $index) {
+        <mat-list-item>
+
+          <a class="nav-link" [routerLink]="navigation.route">{{navigation.name}}
+            
+          </a>
+        </mat-list-item>
+      }
+    </mat-nav-list>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <div class="content">
+      <!-- Routed components go here -->
+      <router-outlet></router-outlet>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
 </div>

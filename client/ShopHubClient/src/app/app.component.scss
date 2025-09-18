@@ -1,0 +1,23 @@
+mat-sidenav {
+  width: 200px;
+  border-right: 1px solid #ccc; // Light gray border
+  border-radius: 0 !important;
+  overflow: auto;
+}
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.app-container {
+  height: 100vh;
+  .nav-link{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.content {
+  padding: 16px;
+}

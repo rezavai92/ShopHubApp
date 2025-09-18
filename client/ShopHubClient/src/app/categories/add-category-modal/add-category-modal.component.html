@@ -1,0 +1,27 @@
+<div class="add-category-modal">
+    
+<mat-dialog-content>
+<div class="category-form">
+      <mat-form-field>
+    <mat-label>Name</mat-label>
+<mat-select>
+    @for (category of data.categories; track $index) {
+          <mat-option [value]="category">{{category}}</mat-option>
+    }
+  
+  </mat-select>
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Description</mat-label>
+    <textarea matInput placeholder="Ex. Cosmetics..."></textarea>
+  </mat-form-field>
+
+</div>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+ <button mat-raised-button color="primary" (click)="onAddClick()" >Add Category</button>
+ <button mat-button (click)="onCancelClick()">Cancel</button>
+</mat-dialog-actions>
+   
+</div>
